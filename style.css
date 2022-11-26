@@ -35,8 +35,29 @@ html, body {
     font-family: 'Abril Fatface', cursive;
 }
 #top {
-    background-color: var(--darker);
+    background-color: var(--dark);
     height: 100px;
     width: 100%;
     
+}
+#top-border {
+    background-color: var(--pink);
+    height: 7px;
+    width: 100%;
+}
+#about-me {
+    background-color: var(--darker);
+    width: 45%;
+    align-items: center;
+}
+#portrait {
+    width:100px;
+    position: relative;
+    margin-top: 20px;
+    margin-left: 37.5%;
+    border-radius: 100px;
+}
+#skills {
+    background-image: url("img/pcNoir.jpg");
+    background-color: var(--darker);
 }
