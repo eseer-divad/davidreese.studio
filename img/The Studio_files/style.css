@@ -1,6 +1,4 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
-
 /* CSS Variables */
 :root {
     --darkest: #141311;
@@ -13,7 +11,6 @@
 body {
     color: white;
     background-color: var(--dark);
-    margin-top: 0px;
 }
 html, body {
     width:100%;
@@ -27,16 +24,10 @@ html, body {
 }
 /* 50% centered text */
 .center-text {
-    margin-top: 0px;
     text-align: center;
-    top: 15px;
-    position: relative;
-    font-size: xxx-large;
-    font-family: 'Abril Fatface', cursive;
 }
 #top {
     background-color: var(--darker);
-    height: 100px;
+    height: 7vh;
     width: 100%;
-    
 }
