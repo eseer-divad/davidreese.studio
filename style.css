@@ -1,48 +1,27 @@
-.chess-table {
-    height: 400px;
-    width: 400px;
-    display: flex;
-    border: 3px solid black;
-}
 
-.piece-box {
-    width: 50px;
-    height: 50px;
+/* CSS Variables */
+:root {
+    --darkest: #141311;
+    --darker: #1b1916;
+    --dark: #24221f;
+    --gray: #32343a;
+    --yellow: #e8d149;
+    --pink: #ff005a;
+}
+body {
     color: white;
-    font-size: 8px;
-    box-sizing: border-box;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background-color: var(--dark);
 }
-
-.piece {
-    width: 45px;
-    height: 45px;
+/* Pink Highlighted Text */
+.highlighted {
+    color: var(--pink);
 }
-
-.piece-box-text {
-    display: none;
-    position: absolute;
-    bottom: 0px;
-    right: 0px;
-    font-size: 12px;
-    color: #444;
+/* 50% centered text */
+.center-text {
+    text-align: center;
 }
-
-/* Chess Board Squares */
-
-.piece-box.white-box {
-    background: white;
-
-}
-
-.piece-box.black-box {
-    background: gray;
-}
-
-.piece-box.piece-selected {
-    background: violet;
-    cursor: pointer;
+#top {
+    background-color: var(--darker);
+    height: 7vh;
+    min-width: max-content;
 }
